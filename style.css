@@ -1,0 +1,46 @@
+html{
+    background-image: url("https://img.freepik.com/vector-gratis/asimiento-mano-pila-libros-chico-genio-ilustracion-vector-boceto-dibujado-mano_460848-14902.jpg?w=1060&t=st=1708631346~exp=1708631946~hmac=0d29ac2d17fc8c4d4061deac0a6dd2105894f854d35a3273ffec3af0b640c3b0");
+    background-position-x: center;
+
+}
+header{
+    color: rgb(204, 28, 224);
+    margin-left: 150px;
+}
+
+textarea[name="user-input"]{
+    border-radius: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid #333333;
+    color: blueviolet;
+    padding: 5;
+}
+*{
+ margin: 5px;   
+}
+.mtr{
+    border: 1px solid rgb(183, 165, 192);
+    border-radius: 8px;
+    display: block;
+    max-width: 550px;
+    font-family:'Courier New', Courier, monospace;
+}
+#reset-button{
+    color: black;
+    font-size:medium;
+    background-color: aquamarine;
+    border-radius: 80px;
+   margin-left: 200px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+footer{
+    color: rgb(0, 0, 0)
+}
+footer:hover{
+    cursor: pointer;
+    color: rgb(204, 28, 224);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}

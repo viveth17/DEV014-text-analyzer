@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analizador de texto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Analizador de texto</h1>
+  </header>
+  <textarea name="user-input" cols="70" rows="10" placeholder="Escribe algo aquí"></textarea>
+  <ul>
+    <li data-testid="word-count" class="mtr">Palabras:0</li>
+    <li data-testid="character-count" class="mtr">Caracteres:0</li>
+    <li data-testid="character-no-spaces-count" class="mtr">Caracteres sin espacios y signos de puntuación:0</li>
+    <li data-testid="number-count" class="mtr">Números:0</li>
+    <li data-testid="number-sum" class="mtr">Suma de números:0.0</li>
+    <li data-testid="word-length-average" class="mtr">Promedio longitud:0.0</li>
+  </ul>
+
+  <button id="reset-button"> Limpiar métricas </button>
+  <footer>
+    <p>Hecho por Iveth</p>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+</html>
