@@ -11,8 +11,8 @@ header{
 textarea[name="user-input"]{
     border-radius: 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 2px solid #333333
-    color:blueviolet;
+    border: 2px solid #333333;
+    color: blueviolet;
     padding: 5;
 }
 *{
