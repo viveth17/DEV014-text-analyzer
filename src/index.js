@@ -1,11 +1,6 @@
 import analyzer from './analyzer.js';
 
-//Funcionalidad para poder limpiar caja de texto al hacer click al botón
-const limpiarBoton = document.getElementById('reset-button');
-limpiarBoton.addEventListener('click', () => {
-  document.getElementsByName('user-input')[0].value = "";
-}
-)
+
 //Busca en el DOM contenido de la <textarea> que esta siendo modificado
 const ingresaPalabras = document.querySelector('[name=user-input]');
 // Busca en el DOM el 1er <li> 
@@ -64,6 +59,21 @@ ingresaPalabras.addEventListener('input', () => {
 
 
 })
+
+
+//Funcionalidad para poder limpiar caja de texto y metricas al hacer click al botón
+const limpiarBoton = document.getElementById('reset-button');
+limpiarBoton.addEventListener('click', () => {
+  document.getElementsByName('user-input')[0].value = "";
+  palabrasLi.innerHTML = "Palabras: 0";
+  palabrasLi2.innerHTML = "Caracteres: 0";
+  palabrasLi3.innerHTML = "Caracteres excluyendo espacios y signos de puntuación: 0";
+  palabrasLi4.innerHTML = "Numeros: 0";
+  palabrasLi5.innerHTML = "Suma: 0";
+  palabrasLi6.innerHTML = "Longitud: 0";
+
+}
+)
 
 
 //TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
